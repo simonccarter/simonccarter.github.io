@@ -1,0 +1,144 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#d8d6d5;
+	color:#666;
+	font-family:Georgia, serif, Verdana, Geneva, sans-serif;
+	}
+
+a {color:#666;}
+a:hover {color:#C00;}
+
+#outline { 
+	position: relative; 
+	width: 1000px; 
+	background:url(../images/grey-radial.png) no-repeat;
+	background-attachment: fixed;
+	margin: 18px auto 0; 
+	margin-top: 5px; 
+	border: solid 1px #999; 
+}
+
+h1 {
+	margin-bottom: 5px;
+	margin-top: 0 px;
+	letter-spacing: -2px;
+	color:black;
+	color:#778fbd;
+	letter-spacing: 0px;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 2px;
+	color:black;
+	color:#778fbd;
+	letter-spacing: 0px;
+	font-size:20px;
+}
+
+#header{
+	padding:0px;
+	margin:-1px;
+	padding-bottom:15px;
+	width:100%;
+	border:1px solid #999;
+	border-bottom:1px solid #999;
+	border-bottom:1px solid #999;
+	font-size:12px;
+	}
+
+#header h1{
+	color:#D33;
+	color:#666;
+	font-size:24px;
+	font-weight:normal;
+}
+
+#header a {color:#999;}
+#header a:hover {color:#C00;}
+
+#profile{
+	float: left;
+        background-image:url(../images/pic1.png);
+	background-repeat: no-repeat;
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	margin-left:25px;
+	margin-right:15px;
+	width:125px;
+	height: 120px;
+}
+
+#title{
+#	padding-left:200px;
+#	width:70%;
+#	margin: 10px;
+	margin-top:22px;
+}
+
+#contact{
+	min-width:300px;
+	width:23%;
+	margin-right:2.5%;
+	float:right;
+	overflow:hidden;
+
+}
+#contact h2{
+	margin-top:22px;
+	color:#f6eeee;
+	color:#666;
+	margin-right:5%;
+	text-align:right;
+}
+.maj{
+	color:#666;
+	font-size:28px;
+	font-weight:bold;
+}
+.infoLeft{
+	text-align:right;
+	margin-left:0px;
+	position:relative;
+	float:right;
+	left:0px;
+}
+.infoRight{
+	text-align:left;
+	margin-left:0px;
+	margin-right:2.5%;
+	position:relative;
+	float:right;
+	right:0px;
+}
+.comment{
+	font-style:italic;
+}
+
+#middle{
+	width:31%; 
+	margin-left:32%;
+	border-left:1px dotted #CCC;
+	padding-left: 10px;
+	border-right:1px dotted #CCC;
+	padding-right: 10px;
+}
+
+#left{margin-left:2.5%;clear:left;float:left; width:29%}
+#right{float:right; width:31%; margin-right:2.5%}
+
+#middle h2, #left h2, #right h2{
+	//background:url(h.png) no-repeat left top;
+	text-indent:5px;	
+}
+
+#footer{clear:both;}
+
+#box{
+	padding-bottom:15px;
+	background:url(box.png) repeat-x bottom left;
+	border-bottom:1px dotted #CCC;
+}
